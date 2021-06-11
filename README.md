@@ -1,5 +1,6 @@
 # Case Técnico Geofusion - Previsão de Faturamento
 
+![image](https://user-images.githubusercontent.com/73614098/121671593-bd8fb780-ca7c-11eb-88b9-306fe30765d8.png)
 
 ---
 ## Introdução
