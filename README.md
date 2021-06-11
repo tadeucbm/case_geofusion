@@ -1,4 +1,4 @@
-# Desafio Final Imersão de Dados Alura - Drug Discovery
+# Case Técnico Geofusion - Previsão de Faturamento
 
 
 ---
