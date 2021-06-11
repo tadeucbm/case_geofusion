@@ -28,7 +28,7 @@ A solução do problema está entregue em dois formatos:
 
 ---
 ## 3.0. Insights
-![''](https://raw.githubusercontent.com/tadeucbm/case_geofusion/main/img/MinMap_faturamento.png?token=ARRUGESFLF6RBIPUIUH4U6DAYOJWS)
+![''](https://raw.githubusercontent.com/tadeucbm/case_geofusion/main/img/MinMap_faturamento.png?token=ARRUGERZKBM4DXOR5X7XDPTAYOK34)
 
 ### Os Maiores Faturamentos
 
