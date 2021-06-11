@@ -30,6 +30,10 @@ A solução do problema está entregue em dois formatos:
 ## 3.0. Insights
 !['Imagem Faturamento'](https://raw.githubusercontent.com/tadeucbm/case_geofusion/main/img/MinMap_faturamento.png?token=ARRUGESFLF6RBIPUIUH4U6DAYOJWS)
 
+### Os Maiores Faturamentos
+
+
+
 
 ---
 ## 4.0. Aplicação do Modelo de Machine Learning
