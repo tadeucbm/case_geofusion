@@ -14,11 +14,17 @@ Esse documento serve como um guia do projeto. A descrição das etapas estão in
 
 ---
 ## 1.0. O Problema
+Um cliente do ramo alimentício no Rio de Janeiro solicitou uma análise para poder entender melhor o seu público alvo. Do conjunto de dados, estão disponíveis algumas métricas sociogeograficas de cara bairro - Renda média, idade, população e domicilios. Além disso, estão disponíveis os seus resepctivos faturamentos brutos. Estão disponíveis, ao total, 160 bairros a análise.
 
+Análise do Problema:
+- **Granularidade**: Por bairro;
+- **Tipo de Modelo**: Regressão.
 
 ---
 ## 2.0. A Solução
-
+A solução do problema está entregue em dois formatos:
+- **Análise Exploratória dos Dados** -> Fornecimento de Insights sobre as principais variáveis que impactam o faturamento do cliente. 
+- **Modelo Em Produção** -> Modelo de Regressão em produção no Heroku.
 
 ---
 ## 3.0. Insights
