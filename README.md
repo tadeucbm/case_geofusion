@@ -13,7 +13,7 @@ A entrega desse projeto está sendo feita de algumas maneiras. Este documento co
 Esse documento serve como um guia do projeto. A descrição das etapas estão inclusas nas próximas sessões.
 
 ## Índice
-- [01. O Problema de Negócio](## 01. O Problema de Negócio)
+- [01. O Problema de Negócio](https://github.com/tadeucbm/case_geofusion/blob/main/README.md#01-o-problema-de-neg%C3%B3cio)
 - [02. A Solução](## 02. A Soluçãog)
 - [03. Exploratory Data Analysis (EDA)](#03-exploratory-data-analysis-eda)
 - [04. Data Preprocessing and Feature Selection](#04-data-preprocessing-and-feature-selection)
