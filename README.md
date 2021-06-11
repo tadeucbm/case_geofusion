@@ -14,7 +14,7 @@ Esse documento serve como um guia do projeto. A descrição das etapas estão in
 
 ## Índice
 - [01. O Problema de Negócio](https://github.com/tadeucbm/case_geofusion/blob/main/README.md#01-o-problema-de-neg%C3%B3cio)
-- [02. A Solução](## 02. A Soluçãog)
+- [02. A Solução](https://github.com/tadeucbm/case_geofusion/blob/main/README.md#02-a-solu%C3%A7%C3%A3o)
 - [03. Exploratory Data Analysis (EDA)](#03-exploratory-data-analysis-eda)
 - [04. Data Preprocessing and Feature Selection](#04-data-preprocessing-and-feature-selection)
 - [05. Machine Learning Modeling](#05-machine-learning-modeling)
