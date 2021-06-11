@@ -28,10 +28,10 @@ A solução do problema está entregue em dois formatos:
 
 ---
 ## 3.0. Insights
-![''](https://raw.githubusercontent.com/tadeucbm/case_geofusion/main/img/MinMap_faturamento.png?token=ARRUGERZKBM4DXOR5X7XDPTAYOK34)
+![''](https://raw.githubusercontent.com/tadeucbm/case_geofusion/main/img/MinMap_faturamento.png?token=ARRUGERTMM2D3L25HV5A26DAYOL3Y)
 
 ### Os Maiores Faturamentos
-
+![''](https://raw.githubusercontent.com/tadeucbm/case_geofusion/main/img/top_10_bairros_faturamento.png?token=ARRUGEXIXC7POAMNFVIUZCLAYOL2O)
 
 
 
@@ -75,4 +75,5 @@ A solução do problema está entregue em dois formatos:
     <a href="https://www.linkedin.com/in/tadeumadureira/" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
     <a href="https://github.com/tadeucbm" target="_blank"><img alt="linkedin" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
     <a href="mailto:tadeucastbm@gmail.com?subject=HelloTadeu,%20From%20Github" target="_blank"><img alt="gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+
 
