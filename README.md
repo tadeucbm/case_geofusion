@@ -24,7 +24,7 @@ Análise do Problema:
 ## 2.0. A Solução
 A solução do problema está entregue em dois formatos:
 - **Análise Exploratória dos Dados** -> Fornecimento de Insights sobre as principais variáveis que impactam o faturamento do cliente. 
-- **Modelo Em Produção** -> Modelo de Regressão em produção no Heroku.
+- **Bot no Telegram** -> Modelo de Regressão em produção no Heroku. Os resultados estão disponíveis através de um Bot no aplicativo **Telegram**.
 
 ---
 ## 3.0. Insights
