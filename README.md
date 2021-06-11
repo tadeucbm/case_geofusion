@@ -12,8 +12,17 @@ A entrega desse projeto está sendo feita de algumas maneiras. Este documento co
 
 Esse documento serve como um guia do projeto. A descrição das etapas estão inclusas nas próximas sessões.
 
+## Índice
+- [01. O Problema de Negócio](## 01. O Problema de Negócio)
+- [02. A Solução](## 02. A Soluçãog)
+- [03. Exploratory Data Analysis (EDA)](#03-exploratory-data-analysis-eda)
+- [04. Data Preprocessing and Feature Selection](#04-data-preprocessing-and-feature-selection)
+- [05. Machine Learning Modeling](#05-machine-learning-modeling)
+- [06. Hyperparameter Tuning](#06-hyperparameter-tuning)
+- [07. Business Performance](#07-business-performance)
+
 ---
-## 1.0. O Problema
+## 01. O Problema de Negócio
 Um cliente do ramo alimentício no Rio de Janeiro solicitou uma análise para poder entender melhor o seu público alvo. Do conjunto de dados, estão disponíveis algumas métricas sociogeograficas de cara bairro - Renda média, idade, população e domicilios. Além disso, estão disponíveis os seus resepctivos faturamentos brutos. Estão disponíveis, ao total, 160 bairros a análise.
 
 Análise do Problema:
@@ -21,7 +30,7 @@ Análise do Problema:
 - **Tipo de Modelo**: Regressão.
 
 ---
-## 2.0. A Solução
+## 02. A Solução
 A solução do problema está entregue em dois formatos:
 - **Análise Exploratória dos Dados** -> Fornecimento de Insights sobre as principais variáveis que impactam o faturamento do cliente. 
 - **Bot no Telegram** -> Modelo de Regressão em produção no Heroku. Os resultados estão disponíveis através de um Bot no aplicativo **Telegram**.
