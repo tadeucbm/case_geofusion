@@ -37,11 +37,16 @@ A solução do problema está entregue em dois formatos:
 
 ---
 ## 3.0. Insights
-Através da Análise Exploratória dos Dados, foi possível identificar alguns padrões sociodemográficos do público alvo do cliente. O gráfico a seguir elenca os dez principais bairros por ordem de faturamento bruto:
+
+Através da Análise Exploratória dos Dados, foi possível identificar alguns padrões sociodemográficos do público alvo do cliente. Algumas variáveis possuem um impacto sobre o problema em maior dimensão. As seguintes visões do problema foram analisadas:
+
+![image](https://user-images.githubusercontent.com/73614098/121753047-80a8dc80-cadf-11eb-9776-76cda62d860d.png)
+
+ Alguns bairros se destacam no nível de receita. O gráfico a seguir elenca os dez principais bairros por ordem de faturamento bruto:
 
 ![image](https://user-images.githubusercontent.com/73614098/121748268-ad0c2b00-cad6-11eb-9cbd-999f164b83c5.png)
 
-Dessa forma, foi possível colocar a amostra dos dez bairros que mais faturam em contraste com os demais. A partir disso, é possível traçar uma noção geral das características do público do comércio:
+Ao colocar os dados médios dos dez principais bairros em faturamento, é possível traçar um perfil do público alvo do comércio:
 
 ![image](https://user-images.githubusercontent.com/73614098/121747630-b648c800-cad5-11eb-8923-642460931ab2.png)
 
@@ -52,7 +57,17 @@ Com o mapa de calor do faturamento dos bairros da cidade, é visível o padrão 
 Os principais pontos de faturamento se concentram na **Zona Sul** e no **Centro**, além da **Barra da Tijuca**. O comércio na Zona Norte também possui um padrão médio interessante. Já o consumo na zona oeste é bem abaixo das demais localizações.
 
 
-### Os Maiores Faturamentos
+### IDH x Faturamento
+
+Dentre as variáveis análisadas, uma que demonstrou boa correlação com o faturamento é o IDH do bairro. Os dados de IDH foram coletados através de um algoritmo de Webscraping. Eles foram coletados do site da Wikipedia e agrupados com o Dataset original.
+
+![image](https://user-images.githubusercontent.com/73614098/121753678-e2b61180-cae0-11eb-9bef-ad5769b18b79.png)
+
+As variáveis possuem uma correlação de **0.75**, em uma escala de 0 a 1 das variações positivas. Isso quer dizer que bairros com um alto IDH possuem, no geral, um maior faturamento. Uma análise isolada dessas variáveis não permite determinar um estado de causualidade entre ambas. No entanto, o impacto existente no Indice de Desenvolvimento Humano na receita é alto.
+
+### Renda Média x Faturamento
+
+Outra variável com bom impacto é a Renda Média.
 
 
 
