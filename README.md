@@ -48,7 +48,7 @@ Através da Análise Exploratória dos Dados, foi possível identificar alguns p
 
 Ao colocar os dados médios dos dez principais bairros em faturamento, é possível traçar um perfil do público alvo do comércio:
 
-![image](https://user-images.githubusercontent.com/73614098/121747630-b648c800-cad5-11eb-8923-642460931ab2.png)
+file:///tmp/mozilla_tcbm0/50%25.png![image](https://user-images.githubusercontent.com/73614098/121761153-2ff3ac80-cafc-11eb-9c50-e3d106928734.png)
 
 Com o mapa de calor do faturamento dos bairros da cidade, é visível o padrão geográfico existente:
 
