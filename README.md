@@ -12,8 +12,17 @@ A entrega desse projeto está sendo feita de algumas maneiras. Este documento co
 
 Esse documento serve como um guia do projeto. A descrição das etapas estão inclusas nas próximas sessões.
 
+## Índice
+- [01. O Problema de Negócio](https://github.com/tadeucbm/case_geofusion/blob/main/README.md#01-o-problema-de-neg%C3%B3cio)
+- [02. A Solução](https://github.com/tadeucbm/case_geofusion/blob/main/README.md#02-a-solu%C3%A7%C3%A3o)
+- [03. Exploratory Data Analysis (EDA)](#03-exploratory-data-analysis-eda)
+- [04. Data Preprocessing and Feature Selection](#04-data-preprocessing-and-feature-selection)
+- [05. Machine Learning Modeling](#05-machine-learning-modeling)
+- [06. Hyperparameter Tuning](#06-hyperparameter-tuning)
+- [07. Business Performance](#07-business-performance)
+
 ---
-## 1.0. O Problema
+## 01. O Problema de Negócio
 Um cliente do ramo alimentício no Rio de Janeiro solicitou uma análise para poder entender melhor o seu público alvo. Do conjunto de dados, estão disponíveis algumas métricas sociogeograficas de cara bairro - Renda média, idade, população e domicilios. Além disso, estão disponíveis os seus resepctivos faturamentos brutos. Estão disponíveis, ao total, 160 bairros a análise.
 
 Análise do Problema:
@@ -21,17 +30,45 @@ Análise do Problema:
 - **Tipo de Modelo**: Regressão.
 
 ---
-## 2.0. A Solução
+## 02. A Solução
 A solução do problema está entregue em dois formatos:
 - **Análise Exploratória dos Dados** -> Fornecimento de Insights sobre as principais variáveis que impactam o faturamento do cliente. 
 - **Bot no Telegram** -> Modelo de Regressão em produção no Heroku. Os resultados estão disponíveis através de um Bot no aplicativo **Telegram**.
 
 ---
 ## 3.0. Insights
-![''](https://raw.githubusercontent.com/tadeucbm/case_geofusion/main/img/MinMap_faturamento.png?token=ARRUGERTMM2D3L25HV5A26DAYOL3Y)
 
-### Os Maiores Faturamentos
-![''](https://raw.githubusercontent.com/tadeucbm/case_geofusion/main/img/top_10_bairros_faturamento.png?token=ARRUGEXIXC7POAMNFVIUZCLAYOL2O)
+Através da Análise Exploratória dos Dados, foi possível identificar alguns padrões sociodemográficos do público alvo do cliente. Algumas variáveis possuem um impacto sobre o problema em maior dimensão. As seguintes visões do problema foram analisadas:
+
+![image](https://user-images.githubusercontent.com/73614098/121753047-80a8dc80-cadf-11eb-9776-76cda62d860d.png)
+
+ Alguns bairros se destacam no nível de receita. O gráfico a seguir elenca os dez principais bairros por ordem de faturamento bruto:
+
+![image](https://user-images.githubusercontent.com/73614098/121748268-ad0c2b00-cad6-11eb-9cbd-999f164b83c5.png)
+
+Ao colocar os dados médios dos dez principais bairros em faturamento, é possível traçar um perfil do público alvo do comércio:
+
+file:///tmp/mozilla_tcbm0/50%25.png![image](https://user-images.githubusercontent.com/73614098/121761153-2ff3ac80-cafc-11eb-9c50-e3d106928734.png)
+
+Com o mapa de calor do faturamento dos bairros da cidade, é visível o padrão geográfico existente:
+
+![image](https://user-images.githubusercontent.com/73614098/121749035-ff018080-cad7-11eb-95cc-5956c70b9991.png)
+
+Os principais pontos de faturamento se concentram na **Zona Sul** e no **Centro**, além da **Barra da Tijuca**. O comércio na Zona Norte também possui um padrão médio interessante. Já o consumo na zona oeste é bem abaixo das demais localizações.
+
+
+### IDH x Faturamento
+
+Dentre as variáveis análisadas, uma que demonstrou boa correlação com o faturamento é o IDH do bairro. Os dados de IDH foram coletados através de um algoritmo de Webscraping. Eles foram coletados do site da Wikipedia e agrupados com o Dataset original.
+
+![image](https://user-images.githubusercontent.com/73614098/121753678-e2b61180-cae0-11eb-9bef-ad5769b18b79.png)
+
+As variáveis possuem uma correlação de **0.75**, em uma escala de 0 a 1 das variações positivas. Isso quer dizer que bairros com um alto IDH possuem, no geral, um maior faturamento. Uma análise isolada dessas variáveis não permite determinar um estado de causualidade entre ambas. No entanto, o impacto existente no Indice de Desenvolvimento Humano na receita é alto.
+
+### Renda Média x Faturamento
+
+Outra variável com bom impacto é a Renda Média.
+
 
 
 
