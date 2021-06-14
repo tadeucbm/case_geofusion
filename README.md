@@ -19,13 +19,13 @@ Esse documento serve como um guia do projeto. A descrição das etapas estão in
 - [04. Aplicação do Modelo de Machine Learning](https://github.com/tadeucbm/case_geofusion#40-aplica%C3%A7%C3%A3o-do-modelo-de-machine-learning)
 - [05. Performance do Modelo de Machine Learning](https://github.com/tadeucbm/case_geofusion#50-performance-do-modelo-de-machine-learning)
 - [06. Resultados de Negócio](https://github.com/tadeucbm/case_geofusion#60-resultados-de-neg%C3%B3cio)
-- [07. Coclusões](https://github.com/tadeucbm/case_geofusion#70-conclus%C3%B5es)
+- [07. Conclusões](https://github.com/tadeucbm/case_geofusion#70-conclus%C3%B5es)
 - [08. Lições aprendidas](https://github.com/tadeucbm/case_geofusion#80-li%C3%A7%C3%B5es-aprendidas)
-- [09. Próximos PAssos](https://github.com/tadeucbm/case_geofusion#90-pr%C3%B3ximos-passos)
+- [09. Próximos Passos](https://github.com/tadeucbm/case_geofusion#90-pr%C3%B3ximos-passos)
 
 ---
 ## 01. O Problema de Negócio
-Um cliente do ramo alimentício no Rio de Janeiro solicitou uma análise para poder entender melhor o seu público alvo. Do conjunto de dados, estão disponíveis algumas métricas sociogeograficas de cara bairro - Renda média, idade, população e domicilios. Além disso, estão disponíveis os seus resepctivos faturamentos brutos. Estão disponíveis, ao total, 160 bairros para análise.
+Um cliente do ramo alimentício do Rio de Janeiro solicitou uma análise para poder entender melhor o seu público alvo. Do conjunto de dados, estão disponíveis algumas métricas sociogeograficas de cada bairro - Renda média, idade, população e domicilios. Além disso, estão disponíveis os seus respectivos faturamentos brutos. Estão disponíveis, ao total, 160 bairros para análise.
 
 Análise do Problema:
 - **Granularidade**: Por bairro;
@@ -108,7 +108,7 @@ Tanto a DecisionTreeRegressor quanto a RandomForestRegressor, dois modelos com b
 
 Modelo escolhido, devemos melhorar seus Hiperparametros e avaliar a sua capacidade de generalização. 
 
-Sobre os dados de Teste o modelo de **Random Forest Regressor** Aprensentou um valor de MAPE de **0.1051**. Ou seja, em média, o modelo em 10.50% os valores de faturamentos para dados nunca vistos antes.
+Sobre os dados de Teste o modelo de **Random Forest Regressor** Aprensentou um valor de MAPE de **0.1051**. Ou seja, em média, o modelo erra 10.50% dos valores de faturamentos para dados nunca vistos antes.
 
 Também avaliei o modelo utilizando o **CrossValidation**, só que dessa vez em todo o Dataset. 
 
@@ -126,7 +126,7 @@ Visualizar os possíveis cenários é a melhor forma de traduzir o modelo para o
 
 ![image](https://user-images.githubusercontent.com/73614098/121926681-35274600-cd0c-11eb-8ac7-fbb15ee281f5.png)
 
-O modelo final foi entregue em produção. Através de um questionário com 10 questões, é possível fazer uma previsão de faturamento de um bairro. Esse repositório está acompanhado de um arquivo chamado API Tester. Nele é possível usar a API.
+O modelo final foi entregue em produção. Através de um questionário com 12 questões, é possível fazer uma previsão de faturamento de um bairro. Esse repositório está acompanhado de um arquivo chamado API Tester. Nele é possível usar a API.
 
 
 ---
