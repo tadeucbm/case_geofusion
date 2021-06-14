@@ -8,7 +8,7 @@ Este projeto foi desenvolvido como resolução do Case Técnico para a vaga de E
 
 Devido a pequena quantidade de dados, fiz a coleta de algumas informações adicionais na web. Do site da Wikipédia, coletei os seguintes dados por bairro: IDH, Subprefeitura, Região Administrativa e Área. Com isso, foi possível realizar algumas análises de público alvo mais acuradas, além de melhorar o desempenho do modelo.
 
-A entrega desse projeto está sendo feita de algumas maneiras. Este documento contém os principais insights do projeto, além da análise dos resultados do modelo de Machine Learning. Os notebooks - Webscraping, Projeto e Análise - estão todos na pasta 'notebooks'. O modelo final foi entregue em produção pelo Heroku e **possivelmente um bot no telegram**.
+A entrega desse projeto está sendo feita de algumas maneiras. Este documento contém os principais insights do projeto, além da análise dos resultados do modelo de Machine Learning. Os notebooks - Webscraping, Projeto e Análise - estão todos na pasta 'notebooks'. O modelo final foi entregue em produção pelo Heroku.
 
 Esse documento serve como um guia do projeto. A descrição das etapas estão inclusas nas próximas sessões.
 
@@ -35,7 +35,7 @@ Análise do Problema:
 ## 02. A Solução
 A solução do problema está entregue em dois formatos:
 - **Análise Exploratória dos Dados** -> Fornecimento de Insights sobre as principais variáveis que impactam o faturamento do cliente. 
-- **Bot no Telegram** -> Modelo de Regressão em produção no Heroku. Os resultados estão disponíveis através de um Bot no aplicativo **Telegram**.
+- **Modelo em Produção** -> Modelo de Regressão em produção no Heroku.
 
 ---
 ## 3.0. Insights
@@ -62,6 +62,7 @@ Os principais pontos de faturamento se concentram na **Zona Sul** e no **Centro*
 Ao analisar a correlação entre as variáveis disponíveis, algumas se destacaram:
 
 ### IDH x Faturamento
+
 O IDH possui alto impacto sobre o Faturamento.
 
 ![image](https://user-images.githubusercontent.com/73614098/121832660-91e91900-cc98-11eb-950a-85db62b82797.png)
@@ -158,5 +159,6 @@ Os próximos passos para aumentar a escala e a eficiência do modelo são:
     <a href="https://www.linkedin.com/in/tadeumadureira/" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
     <a href="https://github.com/tadeucbm" target="_blank"><img alt="linkedin" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
     <a href="mailto:tadeucastbm@gmail.com?subject=HelloTadeu,%20From%20Github" target="_blank"><img alt="gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+
 
 
