@@ -44,11 +44,11 @@ Através da Análise Exploratória dos Dados, foi possível identificar alguns p
 
  Alguns bairros se destacam no nível de receita. O gráfico a seguir elenca os dez principais bairros por ordem de faturamento bruto:
 
-![image](https://user-images.githubusercontent.com/73614098/121748268-ad0c2b00-cad6-11eb-9cbd-999f164b83c5.png)
+![image](https://user-images.githubusercontent.com/73614098/121832202-89441300-cc97-11eb-92d3-4dfa7ee89a14.png)
 
 Ao colocar os dados médios dos dez principais bairros em faturamento, é possível traçar um perfil do público alvo do comércio:
 
-file:///tmp/mozilla_tcbm0/50%25.png![image](https://user-images.githubusercontent.com/73614098/121761153-2ff3ac80-cafc-11eb-9c50-e3d106928734.png)
+file:///home/tcbm/Downloads/50%25(1)/1.png![image](https://user-images.githubusercontent.com/73614098/121832546-50f10480-cc98-11eb-8a96-3a01f16b239c.png)
 
 Com o mapa de calor do faturamento dos bairros da cidade, é visível o padrão geográfico existente:
 
@@ -56,12 +56,11 @@ Com o mapa de calor do faturamento dos bairros da cidade, é visível o padrão 
 
 Os principais pontos de faturamento se concentram na **Zona Sul** e no **Centro**, além da **Barra da Tijuca**. O comércio na Zona Norte também possui um padrão médio interessante. Já o consumo na zona oeste é bem abaixo das demais localizações.
 
-
 ### IDH x Faturamento
 
 Dentre as variáveis análisadas, uma que demonstrou boa correlação com o faturamento é o IDH do bairro. Os dados de IDH foram coletados através de um algoritmo de Webscraping. Eles foram coletados do site da Wikipedia e agrupados com o Dataset original.
 
-![image](https://user-images.githubusercontent.com/73614098/121753678-e2b61180-cae0-11eb-9bef-ad5769b18b79.png)
+![image](https://user-images.githubusercontent.com/73614098/121832660-91e91900-cc98-11eb-950a-85db62b82797.png)
 
 As variáveis possuem uma correlação de **0.75**, em uma escala de 0 a 1 das variações positivas. Isso quer dizer que bairros com um alto IDH possuem, no geral, um maior faturamento. Uma análise isolada dessas variáveis não permite determinar um estado de causualidade entre ambas. No entanto, o impacto existente no Indice de Desenvolvimento Humano na receita é alto.
 
@@ -69,8 +68,21 @@ As variáveis possuem uma correlação de **0.75**, em uma escala de 0 a 1 das v
 
 Outra variável com bom impacto é a Renda Média.
 
+![image](https://user-images.githubusercontent.com/73614098/121832671-99a8bd80-cc98-11eb-9b21-57d40e160679.png)
 
+Assim como o IDH, valores elevados de Renda Média são, em boa parte dos casos, acompanhados de maiores níveis de faturamento.
 
+### Tipo de Domicílio x Faturamento
+
+![image](https://user-images.githubusercontent.com/73614098/121833054-7f231400-cc99-11eb-8c24-2978d610865d.png)
+
+### Idade x Faturamento
+
+![image](https://user-images.githubusercontent.com/73614098/121833243-eb9e1300-cc99-11eb-9982-764ba537b765.png)
+
+### Perfil
+
+![image](https://user-images.githubusercontent.com/73614098/121834823-b72c5600-cc9d-11eb-870e-0f22782e5eb4.png)
 
 ---
 ## 4.0. Aplicação do Modelo de Machine Learning
