@@ -13,13 +13,15 @@ A entrega desse projeto está sendo feita de algumas maneiras. Este documento co
 Esse documento serve como um guia do projeto. A descrição das etapas estão inclusas nas próximas sessões.
 
 ## Índice
-- [01. O Problema de Negócio](https://github.com/tadeucbm/case_geofusion/blob/main/README.md#01-o-problema-de-neg%C3%B3cio)
-- [02. A Solução](https://github.com/tadeucbm/case_geofusion/blob/main/README.md#02-a-solu%C3%A7%C3%A3o)
-- [03. Exploratory Data Analysis (EDA)](#03-exploratory-data-analysis-eda)
-- [04. Data Preprocessing and Feature Selection](#04-data-preprocessing-and-feature-selection)
-- [05. Machine Learning Modeling](#05-machine-learning-modeling)
-- [06. Hyperparameter Tuning](#06-hyperparameter-tuning)
-- [07. Business Performance](#07-business-performance)
+- [01. O Problema de Negócio](https://github.com/tadeucbm/case_geofusion#01-o-problema-de-neg%C3%B3cio)
+- [02. A Solução](https://github.com/tadeucbm/case_geofusion#02-a-solu%C3%A7%C3%A3o)
+- [03. Insights](https://github.com/tadeucbm/case_geofusion#30-insights)
+- [04. Aplicação do Modelo de Machine Learning](https://github.com/tadeucbm/case_geofusion#40-aplica%C3%A7%C3%A3o-do-modelo-de-machine-learning)
+- [05. Performance do Modelo de Machine Learning](https://github.com/tadeucbm/case_geofusion#50-performance-do-modelo-de-machine-learning)
+- [06. Resultados de Negócio](https://github.com/tadeucbm/case_geofusion#60-resultados-de-neg%C3%B3cio)
+- [07. Coclusões](https://github.com/tadeucbm/case_geofusion#70-conclus%C3%B5es)
+- [08. Lições aprendidas](https://github.com/tadeucbm/case_geofusion#80-li%C3%A7%C3%B5es-aprendidas)
+- [09. Próximos PAssos](https://github.com/tadeucbm/case_geofusion#90-pr%C3%B3ximos-passos)
 
 ---
 ## 01. O Problema de Negócio
